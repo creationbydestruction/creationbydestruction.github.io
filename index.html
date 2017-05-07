@@ -9,8 +9,8 @@
     <title>Creation by Destruction</title>
 </head>
 <body>
-<div class="container">
-    <img src="assets/images/cliff.jpg" alt="" class="img-fluid" id="cliff">
+<div class="container" id="maincontainer">
+    <h1 class="display-4 text-center" id="uc">This website is under construction. In the meantime...</h1>
     <div class="embed-responsive embed-responsive-4by3" id="tickets">
         <iframe class="embed-responsive-item" src="https://www.rawartists.org/tickets/purchase/2182/321737"></iframe>
     </div>
@@ -29,11 +29,9 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function(){
-        $("cliff").click(function () {
-
+        $("#cliff").click(function () {
             $(this).hide("explode", { pieces: 24 }, 2000);
             $('#tickets').show();
-
         });
     });
 </script>
