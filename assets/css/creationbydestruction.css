@@ -78,9 +78,15 @@ div.image-buttons{
 .layers-title {
     padding-left: 5px;
 }
+#cliff {
+    cursor: crosshair;
+}
+#tickets {
+    display: none;
+}
 .content {
     display: inline-block;
-    background: url("../bg.png") repeat;
+    background: url("../images/bg.png") repeat;
     background-size: 24px 24px;
 }
 .bottom {
@@ -89,14 +95,14 @@ div.image-buttons{
     background-color: #464646;
 }
 hr.emboss-shit {
-    border-width: 2px 0px;
+    border-width: 2px 0;
     border-color: #444 transparent #aaa transparent;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     width: 98%;
 }
 hr.emboss-shit2 {
-    border-width: 2px 0px;
+    border-width: 2px 0;
     margin-top: 5px !important;
     margin-bottom: 3px !important;
     width: 95%;
