@@ -11,6 +11,11 @@ div.container {
 div#maincontainer{
     padding: 0 !important;
 }
+
+.layers-image > a {
+    text-decoration: none;
+    color: lightgrey;
+}
 .nav1 {
     height: 28px;
     background-color: #535353;
@@ -31,15 +36,17 @@ div#maincontainer{
 }
 .image-select{
     padding: 1px 1px;
-    color: whitesmoke;
+    color: rgba(255, 255, 255, .5);
 }
 .layers{
     padding: 5px;
     z-index: 999;
-    max-width: 25%;
+    min-width: 20%;
+    max-width: 30%;
     min-height: 400px;
+    max-height: 600px;
     position: absolute;
-    right: 2%;
+    right: 5%;
     bottom: 30%;
     background-color: #464646;
     -webkit-box-shadow: 0 7px 4px #777;
@@ -78,10 +85,6 @@ div.image-buttons{
 .layers-title {
     padding-left: 5px;
 }
-#uc {
-    padding: 15px;
-    color: whitesmoke;
-}
 .content {
     display: inline-block;
     background: url("../images/bg.png") repeat;
@@ -116,7 +119,7 @@ hr.emboss-shit2 {
     padding-top: 4px;
     padding-left: 4px;
     padding-bottom: 2px;
-    line-height: 0px;
+    line-height: 0;
     margin-right: 3px;
 }
 .closebtn {
