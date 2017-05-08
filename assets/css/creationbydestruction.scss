@@ -1,8 +1,69 @@
 @import "buttons";
+@import "glitch";
 @import "main";
 @import "title-bar";
 @import "layers-panel";
-@import "glitch";
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .announcements-glitch-md, .announcements-glitch-lg, .announcements-glitch-xl {
+    display: none;
+  }
+  .announcements-glitch-xs {
+    display: block;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .announcements-glitch-xs, .announcements-glitch-lg, .announcements-glitch-xl {
+    display: none;
+  }
+  .announcements-glitch-md {
+    display: block;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .announcements-glitch-md, .announcements-glitch-xs, .announcements-glitch-xl {
+    display: none;
+  }
+  .announcements-glitch-lg {
+    display: block;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .announcements-glitch-md, .announcements-glitch-lg, .announcements-glitch-xs {
+    display: none;
+  }
+  .announcements-glitch-xl {
+    display: block;
+  }
+}
+
+.announcements-glitch-lg {
+  font-size: 50px;
+  font-weight: 300;
+  @include textGlitch(announcements-glitch, 20, black, transparent, red, green, 932, 61);
+}
+.announcements-glitch-md {
+  font-size: 40px;
+  font-weight: 300;
+  @include textGlitch(announcements-glitch, 20, black, transparent, red, green, 692, 49);
+}
+.announcements-glitch-xl {
+  font-size: 60px;
+  font-weight: 300;
+  @include textGlitch(announcements-glitch, 20, black, transparent, red, green, 1112, 61);
+}
+
+.announcements-glitch-xs {
+  font-size: 30px;
+  font-weight: 300;
+  @include textGlitch(announcements-glitch, 20, black, transparent, red, green, 512, 37);
+}
 
 
 
