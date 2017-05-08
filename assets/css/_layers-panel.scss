@@ -1,0 +1,82 @@
+hr.emboss-shit2 {
+  border-width: 2px 0;
+  margin-top: 5px !important;
+  margin-bottom: 3px !important;
+  width: 95%;
+  padding: 1px 0;
+}
+
+div.layers-images > a {
+  color: whitesmoke;
+}
+
+div.layers-images > a:hover, div.layers-images > a:visited, div.layers-images > a:link, div.layers-images > a:active {
+  text-decoration: none;
+}
+
+div.layers-nav > div[role="tablist"] {
+  margin: 0 auto;
+}
+
+#audiogallery, #othergallery {
+  display: none;
+}
+
+.layers {
+  padding: 5px;
+  z-index: 999;
+  min-width: 20%;
+  max-width: 30%;
+  min-height: 400px;
+  max-height: 600px;
+  position: absolute;
+  right: 5%;
+  bottom: 30%;
+  background-color: #464646;
+  -webkit-box-shadow: 0 7px 4px #777;
+  -moz-box-shadow: 0 7px 4px #777;
+  box-shadow: 0 7px 4px #777;
+  color: lightgrey;
+}
+
+.image-thumbnail img {
+  padding: 8px 4px;
+}
+
+div.layers-image {
+  width: 100%;
+  border: 1px black;
+}
+
+div.image-select {
+  border: 1px black;
+}
+
+div.image-thumbnail {
+  width: 25%
+}
+
+div.image-title {
+  width: 45%;
+}
+
+div.layers-image div {
+  display: inline-block;
+}
+
+div.image-buttons {
+  width: 20%;
+}
+
+.layers-nav {
+  padding: 2px 4px;
+}
+
+.layers-title {
+  padding-left: 5px;
+}
+
+.image-select {
+  padding: 1px 1px;
+  color: rgba(255, 255, 255, .5);
+}

@@ -1,0 +1,21 @@
+div.container {
+  background-color: transparent;
+  margin-top: 50px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+div#maincontainer {
+  padding: 0 !important;
+}
+
+.content {
+  background: url("../images/bg.png") repeat;
+  background-size: 24px 24px;
+}
+
+.content.content-index {
+  margin: 0 4px;
+  padding: 5px 10px;
+}
