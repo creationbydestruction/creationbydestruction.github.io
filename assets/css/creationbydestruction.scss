@@ -75,11 +75,14 @@
 .carousel-inner > .item > a > img,  .carousel-inner > .item > img {
   width: 100%;
 }
-.announcements-glitch-md, .announcements-glitch-lg, .announcements-glitch-xs, .announcements-glitch-xl {
-  //display: inline-block;
+#audiogallery,#visualgallery,#othergallery {
+  max-height: 1000px;
 }
-
-
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
 
 
 
