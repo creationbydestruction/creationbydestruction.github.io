@@ -25,6 +25,7 @@ hr.emboss-shit {
 }
 
 .nav2 {
+  min-height: 50px;
   background: rgba(83, 83, 83, 1);
   background: -moz-linear-gradient(top, rgba(83, 83, 83, 1) 0%, rgba(70, 70, 70, 1) 100%);
   background: -webkit-linear-gradient(top, rgba(83, 83, 83, 1) 0%, rgba(70, 70, 70, 1) 100%);
@@ -32,4 +33,10 @@ hr.emboss-shit {
   background: -ms-linear-gradient(top, rgba(83, 83, 83, 1) 0%, rgba(70, 70, 70, 1) 100%);
   background: linear-gradient(to bottom, rgba(83, 83, 83, 1) 0%, rgba(70, 70, 70, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#535353', endColorstr='#464646', GradientType=0);
+}
+.navbar-toggler-right {
+  top: 5px;
+}
+.nav2 .navbar {
+  padding-top: 5px;
 }

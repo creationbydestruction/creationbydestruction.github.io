@@ -44,28 +44,40 @@
 }
 
 .announcements-glitch-lg {
+  width: 333px;
+  height: 61px;
   font-size: 50px;
   font-weight: 300;
-  @include textGlitch(announcements-glitch, 20, black, transparent, red, green, 932, 61);
+  @include textGlitch(announcements-glitch-lg, 20, black, transparent, red, green, 333, 61);
 }
 .announcements-glitch-md {
+  width: 267px;
+  height: 49px;
   font-size: 40px;
   font-weight: 300;
-  @include textGlitch(announcements-glitch, 20, black, transparent, red, green, 692, 49);
+  @include textGlitch(announcements-glitch-md, 20, black, transparent, red, green, 267, 49);
 }
 .announcements-glitch-xl {
+  width: 400px;
+  height: 73px;
   font-size: 60px;
   font-weight: 300;
-  @include textGlitch(announcements-glitch, 20, black, transparent, red, green, 1112, 61);
+  @include textGlitch(announcements-glitch-xl, 20, black, transparent, red, green, 400, 61);
 }
 
 .announcements-glitch-xs {
+  width: 200px;
+  height: 37px;
   font-size: 30px;
   font-weight: 300;
-  @include textGlitch(announcements-glitch, 20, black, transparent, red, green, 512, 37);
+  @include textGlitch(announcements-glitch-xs, 20, black, transparent, red, green, 200, 37);
 }
-
-
+.carousel-inner > .item > a > img,  .carousel-inner > .item > img {
+  width: 100%;
+}
+.announcements-glitch-md, .announcements-glitch-lg, .announcements-glitch-xs, .announcements-glitch-xl {
+  //display: inline-block;
+}
 
 
 
