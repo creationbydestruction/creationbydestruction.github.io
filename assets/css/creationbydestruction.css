@@ -1,14 +1,16 @@
 body {
 
 }
+
 div.container {
     background-color: transparent;
     margin-top: 50px;
-    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-div#maincontainer{
+
+div#maincontainer {
     padding: 0 !important;
 }
 
@@ -16,15 +18,14 @@ div#maincontainer{
     text-decoration: none;
     color: lightgrey;
 }
+
 .nav1 {
     height: 28px;
     background-color: #535353;
     overflow: visible;
     padding: 2px 8px;
 }
-.nav1 > ul.nav {
-    height: 20px;
-}
+
 .nav2 {
     background: rgba(83, 83, 83, 1);
     background: -moz-linear-gradient(top, rgba(83, 83, 83, 1) 0%, rgba(70, 70, 70, 1) 100%);
@@ -34,11 +35,13 @@ div#maincontainer{
     background: linear-gradient(to bottom, rgba(83, 83, 83, 1) 0%, rgba(70, 70, 70, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#535353', endColorstr='#464646', GradientType=0);
 }
-.image-select{
+
+.image-select {
     padding: 1px 1px;
     color: rgba(255, 255, 255, .5);
 }
-.layers{
+
+.layers {
     padding: 5px;
     z-index: 999;
     min-width: 20%;
@@ -54,47 +57,75 @@ div#maincontainer{
     box-shadow: 0 7px 4px #777;
     color: lightgrey;
 }
-.image-thumbnail img{
+
+.image-thumbnail img {
     padding: 8px 4px;
 }
+
 div.layers-image {
     width: 100%;
     border: 1px black;
 }
+
 div.image-select {
     border: 1px black;
 }
+
 div.image-thumbnail {
     width: 25%
 }
+
 div.image-title {
     width: 45%;
 }
+
 div.layers-image div {
     display: inline-block;
 }
-div.image-buttons{
+
+div.image-buttons {
     width: 20%;
 }
+
 .layers-nav {
     padding: 2px 4px;
 }
-.pane {
-    background-color: #464646;
-}
+
 .layers-title {
     padding-left: 5px;
 }
+
 .content {
-    display: inline-block;
     background: url("../images/bg.png") repeat;
     background-size: 24px 24px;
 }
-.bottom {
-    height: 28px;
-    width: 100%;
-    background-color: #464646;
+
+.content.content-index {
+    margin: 0 4px;
+    padding: 5px 10px;
 }
+
+#audiogallery, #othergallery {
+    display: none;
+}
+
+div.layers-nav > div[role="tablist"] {
+    margin: 0 auto;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+div.layers-images > a {
+    color: whitesmoke;
+}
+
+div.layers-images > a:hover, div.layers-images > a:visited, div.layers-images > a:link, div.layers-images > a:active {
+    text-decoration: none;
+}
+
 hr.emboss-shit {
     border-width: 2px 0;
     border-color: #444 transparent #aaa transparent;
@@ -102,6 +133,7 @@ hr.emboss-shit {
     margin-bottom: 0 !important;
     width: 98%;
 }
+
 hr.emboss-shit2 {
     border-width: 2px 0;
     margin-top: 5px !important;
@@ -109,11 +141,13 @@ hr.emboss-shit2 {
     width: 95%;
     padding: 1px 0;
 }
+
 .cdb {
     color: #c6c4bd;
     display: block;
     padding-top: 2px;
 }
+
 .buttons {
     float: left;
     padding-top: 4px;
@@ -122,6 +156,7 @@ hr.emboss-shit2 {
     line-height: 0;
     margin-right: 3px;
 }
+
 .closebtn {
     background: #ff5c5c;
     font-size: 9pt;
@@ -131,10 +166,12 @@ hr.emboss-shit2 {
     border-radius: 50%;
     display: inline-block;
 }
+
 .closebtn:active {
     background: #c14645;
     border: 1px solid #b03537;
 }
+
 .minimizebtn {
     background: #ffbd4c;
     font-size: 9pt;
@@ -150,6 +187,7 @@ hr.emboss-shit2 {
     background: #c08e38;
     border: 1px solid #af7c33;
 }
+
 .zoombtn {
     background: #00ca56;
     font-size: 9pt;
@@ -160,6 +198,7 @@ hr.emboss-shit2 {
     border-radius: 50%;
     display: inline-block;
 }
+
 .zoombtn:active {
     background: #029740;
     border: 1px solid #128435;
