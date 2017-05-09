@@ -88,10 +88,22 @@
 }
 #layers-connect {
   right: 30%;
-  min-width: 30%;
-  max-width: 40%;
+  min-width: 40%;
+  max-width: 50%;
 }
-
+.layers-connect > a {
+  width: 50%;
+}
+/* SOCIAL MEDIA BUTTON */
+.social_btn-facebook {background: #3b5998;color:#172d5e}
+.social_btn-twitter {background: #00aced;color:#043d52}
+.social_btn-google-plus {background: #c32f10;color:#6b1301}
+.social_btn-soundcloud {background: #ff8800;color:#c73e04}
+.social_btn-insta {background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);color:white}
+.social_btn-bandcamp {background: black;color:white}
+.social_btn-linkedin {background: #0976b4;color:#004269}
+.social_btn-tumblr {background: #35465c;color:#142030}
+.social_btn-website {background: dodgerblue; color: white;}
 
 
 
