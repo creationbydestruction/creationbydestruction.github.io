@@ -12,5 +12,6 @@
     <orderEntry type="library" name="tether" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="draggabilly.pkgd" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
   </component>
 </module>
