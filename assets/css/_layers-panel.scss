@@ -87,3 +87,6 @@ div.image-buttons {
 #layers-images {
   min-height: unset;
 }
+#layers-images > .layers-title {
+  cursor: move;
+}
