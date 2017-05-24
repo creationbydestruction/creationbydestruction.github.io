@@ -31,7 +31,7 @@ div.layers-nav > div[role="tablist"] {
   max-height: 600px;
   position: absolute;
   right: 5%;
-  bottom: 30%;
+  top: 10%;
   background-color: #464646;
   -webkit-box-shadow: 0 7px 4px #777;
   -moz-box-shadow: 0 7px 4px #777;
@@ -89,4 +89,12 @@ div.image-buttons {
 }
 #layers-images > .layers-title {
   cursor: move;
+}
+#layers-connect {
+  right: 30%;
+  min-width: 40%;
+  max-width: 50%;
+}
+.layers-connect > a {
+  width: 50%;
 }
