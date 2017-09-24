@@ -745,3 +745,6 @@ div.image-buttons {
   display: block; }
 
 /*# sourceMappingURL=creationbydestruction.css.map */
+.spacer {
+  min-height: 500px;
+}
